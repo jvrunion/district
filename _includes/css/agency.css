@@ -4,7 +4,7 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-body {
+ body {
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #{{ site.color.secondary-dark }};
@@ -120,14 +120,16 @@ fieldset[disabled] .btn-primary.active {
 
 .btn-xl {
     padding: 20px 40px;
-    border-color: #{{ site.color.primary }};
+    /* border-color: #FE5C36; */
+    border-color: rgba(33, 33, 33, 0.35);
     border-radius: 3px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
     font-weight: 700;
     color: #fff;
-    background-color: #{{ site.color.primary }};
+    background-color: #FE5C36;
+    box-shadow: 0 10px 30px 10px rgba(0, 0, 0, 0.5);
 }
 
 .btn-xl:hover,
@@ -135,7 +137,7 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-    border-color: #{{ site.color.primary }};
+    border-color: #212121;
     color: #fff;
     background-color: #{{ site.color.secondary }};
 }
@@ -266,7 +268,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../img/header-bg.jpg);
+    background-image: url(../img/cap_dc.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -862,3 +864,4 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #{{ site.color.primary }};
 }
+
